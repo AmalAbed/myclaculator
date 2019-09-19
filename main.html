@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="calc.css">
+    <script
+	  src="https://code.jquery.com/jquery-3.4.1.min.js"
+	  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+	  crossorigin="anonymous"></script>
+</head>
+<body background="img5.jpg">
+		<div class="bodyAll">	 
+			<label class="label"> Enter The First Number: </lable> <input id="fNum" type="text" name="input" ><br><br>
+			<label class="label"> Enter The Seconed Number: </lable> <input id="sNum" type="text" name="input"><br><br>
+			<label class="label"> Output:  </lable><input id="output" type="text" name="input" ><br><br>
+			<div class="divAll">
+				<div>
+					<button id="sum" class="button" onclick="getResult2('sum')"> + </button>
+					<button id="div" class="button" onclick="getResult2('div')"> / </button>
+					<button id="mult" class="button" onclick="getResult2('mult')"> * </button>
+				</div><br>
+
+				<div>
+					<button id="sub" class="button" onclick="getResult2('sub')"> - </button>
+					<button id="expo" class="button" onclick="getResult2('expo')"> e </button>
+					<button id="mod"class="button" onclick="getResult2('mod')"> % </button>
+				</div><br>
+
+				<div>
+					<button id="pow" class="button" onclick="getResult2('pow')"> x^y </button>
+			
+					<button id="clear"class="button btnclear">C</button>
+				</div><br></div>
+			<script type="text/javascript" src="calc.js"></script>
+	    </div>
+</body>
+</html>
